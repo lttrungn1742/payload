@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.10.2-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Tool</title>
+</head>
+
+<body>
+    <div class="contain">
+        <h1>TIP </h1>
+
+        <p>How much money you will pay?</p>
+
+        <div class="ipmoney">
+            <i class="fas fa-dollar-sign"></i>
+            <input type="value" id="money">
+        </div>
+
+        <div class="feel">
+            <p>what will you rate ?</p>
+
+            <select id="percentage">
+                        <option disabled selected value="0"> Choose an opition</option>
+                        <option value="0.3">Extremely good - 30% </option>
+                        <option value="0.2">Really Good - 20% </option>
+                        <option value="0.15"> Good - 15% </option>
+                        <option value="0.1"> No Good - 10%</option>
+                        <option value="0.05"> Bad - 5%</option>
+                    </select>
+
+        </div>
+
+        <p>How many persons will share bill?</p>
+        <div class="opmoney">
+
+            <i class="fas fa-user-alt"></i>
+            <input type="value" id="persons">
+        </div>
+
+
+        <div class="cal">
+            <button id="Tinh_tien"> Calculate</button>
+            <p id="tien"> </p>
+        </div>
+        <script src="code.js"></script>
+    </div>
+</body>
+
+</html>
